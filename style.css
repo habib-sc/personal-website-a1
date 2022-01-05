@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    color: #13103A;
+    font-size: 55px;
+}
+
+h2{
+    color: #13103A;
+    font-size: 45px;
+}
+
+h3{
+    color: #13103A;
+    font-size: 30px;
+    margin: 25px 0;
+}
+
+p{
+    margin: 24px 0 35px 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-heading{
+    margin-bottom: 60px;
+}
+
+.intro-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+}
+
+.left-intro h1{
+    font-size: 80px;
+    font-family: 'Neuton', serif;
+    color: #333333;
+}
+
+.left-intro p{
+    font-size: 24px;
+    width: 80%;
+    line-height: 1.6;
+}
+
+.button{
+    text-decoration: none;
+    font-size: 24px;
+    background-color: #2154AC;
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: white;
+}
+
+#designation{
+    color: #7070FC;
+}
+
+.intro-section img{
+    width: 550px;
+}
+
+.intro-heading{
+    display: flex;
+}
+
+#left-border-heading{
+    height: 160px;
+    width: 6px;
+    background-color: #2154AC;
+    margin: 28px 20px 0px 0px;
+    border-radius: 5px;
+}
+
+.duel-color-heading{
+    color: #7070FC;
+}
+
+.service-section h1{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item{
+    width: 410px;
+    padding: 40px 30px;
+    border-radius: 20px;
+}
+
+.service-item img{
+    width: 50%;
+}
+
+.service-color-1{
+    background-color: #EDF5F6;
+}
+
+.service-color-2{
+    background-color: #FFEEEE;
+}
+
+.service-color-3{
+    background-color: #FFF4D6;
+}
+
+.develop-left{
+    padding: 20px 100px;
+}
+
+.develop-section{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.develop-section{
+    width: 80%;
+}
+
+.develop-section img{
+    width: 550px;
+}
+
+.develop-bg{
+    background-image: url("./images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position-x: 60px;
+    background-position-y: 80px;
+}
