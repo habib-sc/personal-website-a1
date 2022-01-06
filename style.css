@@ -35,6 +35,8 @@ body{
 }
 
 .section-heading{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
     margin-bottom: 60px;
 }
 
@@ -90,11 +92,6 @@ body{
     color: #7070FC;
 }
 
-.service-section h1{
-    font-family: 'Abril Fatface', cursive;
-    text-align: center;
-}
-
 .services{
     display: flex;
     justify-content: space-between;
@@ -122,21 +119,18 @@ body{
     background-color: #FFF4D6;
 }
 
-.develop-left{
+.side-content{
     padding: 20px 100px;
 }
 
-.develop-section{
+.duel-box{
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
-}
-
-.develop-section{
     width: 80%;
 }
 
-.develop-section img{
+.duel-box img{
     width: 550px;
 }
 
@@ -146,4 +140,69 @@ body{
     background-size: 320px;
     background-position-x: 60px;
     background-position-y: 80px;
+}
+
+.consultation-bg{
+    background-image: url("./images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position: right;
+    background-position-y: 360px;
+    padding-bottom: 133px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.contact-form label{
+    font-size: 28px;
+    padding: 12px 0;
+}
+
+.contact-form input{
+    padding: 12px 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #2154AC;
+    background-color: aliceblue;;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea{
+    height: 100px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    border: 1px solid #2154AC;
+    border-radius: 5px;
+    background-color: aliceblue;
+    font-size: 14px;
+    resize: none;
+}
+
+.side-form-section{
+    padding: 40px;
+    box-shadow: 0 2px 15px #ccc;
+    border-radius: 10px;
+    height: 500px;
+}
+
+footer{
+    background-color: #333333;
+    text-align: center;
+    padding: 50px;
+    margin-top: 40px;
+}
+
+footer p{
+    color: white;
+    margin-bottom: 0px !important;
+}
+
+footer h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
